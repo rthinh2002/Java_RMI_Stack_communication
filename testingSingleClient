@@ -1,0 +1,17 @@
+#!/bin/bash
+
+pkill -f rmiregistry
+pkill -f java
+javac *.java
+rmiregistry &
+java SorterServer &
+java SorterClient testingForSingleClient.txt > output.txt
+
+echo "Checking test case..."
+diff -q expectedOutput.txt output.txt 
+if [[ $? == "0" ]]
+then
+  echo "Test passed"
+else
+  echo "Test failed"
+fi

@@ -1,0 +1,7 @@
+pushValue 123
+pushValue 321
+pushValue 99999
+pop
+pushValue 99999
+isEmpty
+pushValue 87

@@ -1,0 +1,61 @@
+pushValue 56
+pushValue 33
+pushValue 1
+pushValue 11
+pushValue 78
+pushValue 100
+pushOperator ascending
+pushOperator descending
+pop
+pushOperator max
+pushValue 34
+pushValue 8
+pushValue 99
+pushValue 4
+pushOperator min
+pop
+isEmpty
+pushValue 33
+pushValue 9
+pushValue 22
+pushOperator ascending
+pushValue 34
+delayPop 1000
+pushOperator max
+pushValue 2
+pushValue 2
+pushValue 1
+pushValue 1
+pushOperator min
+pushValue 9999
+pushValue 998
+pushValue 21
+pushOperator descending
+pop
+pop
+isEmpty
+pushValue 5
+delayPop 3000
+pushValue -1
+pushValue -2
+pushValue 18
+pushOperator ascending
+pushOperator min
+pushValue 99999
+pushValue 12
+pushValue 8
+pushOperator max
+pushOperator min
+pop
+isEmpty
+pushValue 22
+pushValue 1
+pushValue 0
+pushOperator ascending
+pushOperator descending
+pushValue 31
+pushValue 99
+pop
+delayPop 800
+pushValue 1
+pushOperator min

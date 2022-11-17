@@ -1,0 +1,13 @@
+pushValue 888
+pushValue 2
+pushOperator ascending
+pushValue 1
+pushValue 34
+pushValue -1
+pop
+pushOperator min
+pop
+pushValue -2
+pushValue 200
+pushValue 12
+pushOperator descending

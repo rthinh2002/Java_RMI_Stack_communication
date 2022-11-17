@@ -1,0 +1,4 @@
+pushValue 2
+pushValue 999
+pushValue 2
+pushOperator min

@@ -1,0 +1,36 @@
+#!/bin/bash
+
+pkill -f rmiregistry
+pkill -f java
+javac *.java
+rmiregistry &
+java SorterServer &
+java SorterClient testingClient1.txt > outputClient1.txt &
+variable_pid1=$!
+java SorterClient testingClient2.txt > outputClient2.txt &
+variable_pid2=$!
+java SorterClient testingClient3.txt > outputClient3.txt &
+variable_pid3=$!
+java SorterClient testingClient4.txt > outputClient4.txt &
+variable_pid4=$!
+
+wait $variable_pid1
+echo "Client 1 finish!"
+wait $variable_pid2
+echo "Client 2 finish!"
+wait $variable_pid3
+echo "Client 3 finish!"
+wait $variable_pid4
+echo "Client 4 finish!"
+echo "Testing done. Printing the output: "
+echo "Client 1's stack:"
+cat outputClient1.txt
+
+echo "Client 2's stack:"
+cat outputClient2.txt
+
+echo "Client 3's stack:"
+cat outputClient3.txt
+
+echo "Client 4's stack:"
+cat outputClient4.txt

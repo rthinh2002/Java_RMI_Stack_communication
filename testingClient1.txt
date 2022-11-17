@@ -1,0 +1,8 @@
+pushValue 11
+pushValue 9
+pushValue 22
+pushValue 8
+pushOperator ascending
+delayPop 1000
+pushOperator max
+isEmpty

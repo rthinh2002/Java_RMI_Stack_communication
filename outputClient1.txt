@@ -1,0 +1,14 @@
+The current stack from top to bottom: 11 0 888 123 
+The current stack from top to bottom: 0 321 9 2 11 0 888 123 
+The current stack from top to bottom: 0 0 0 2 9 11 22 123 321 888 99999 
+The current stack from top to bottom: 1 0 8 0 0 2 9 11 22 123 321 888 99999 
+The current stack from top to bottom: 9 34 99999 0 0 0 1 2 8 9 11 22 123 321 888 99999 
+Delay pop 200 out of the stack! The current stack from top to bottom: -2 
+The current stack from top to bottom: -2 
+Stack is not empty
+
+
+The final stack is: 
+The current stack from top to bottom: 1 -2 
+
+

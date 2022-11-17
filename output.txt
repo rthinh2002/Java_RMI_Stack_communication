@@ -1,0 +1,67 @@
+The current stack from top to bottom: 56 
+The current stack from top to bottom: 33 56 
+The current stack from top to bottom: 1 33 56 
+The current stack from top to bottom: 11 1 33 56 
+The current stack from top to bottom: 78 11 1 33 56 
+The current stack from top to bottom: 100 78 11 1 33 56 
+The current stack from top to bottom: 1 11 33 56 78 100 
+The current stack from top to bottom: 100 78 56 33 11 1 
+The current stack from top to bottom: 78 56 33 11 1 
+The current stack from top to bottom: 78 
+The current stack from top to bottom: 34 78 
+The current stack from top to bottom: 8 34 78 
+The current stack from top to bottom: 99 8 34 78 
+The current stack from top to bottom: 4 99 8 34 78 
+The current stack from top to bottom: 4 
+The current stack from top to bottom: 
+Stack is empty!
+The current stack from top to bottom: 33 
+The current stack from top to bottom: 9 33 
+The current stack from top to bottom: 22 9 33 
+The current stack from top to bottom: 9 22 33 
+The current stack from top to bottom: 34 9 22 33 
+The current stack from top to bottom: 9 22 33 
+The current stack from top to bottom: 33 
+The current stack from top to bottom: 2 33 
+The current stack from top to bottom: 2 2 33 
+The current stack from top to bottom: 1 2 2 33 
+The current stack from top to bottom: 1 1 2 2 33 
+The current stack from top to bottom: 1 1 
+The current stack from top to bottom: 9999 1 1 
+The current stack from top to bottom: 998 9999 1 1 
+The current stack from top to bottom: 21 998 9999 1 1 
+The current stack from top to bottom: 9999 998 21 1 1 
+The current stack from top to bottom: 998 21 1 1 
+The current stack from top to bottom: 21 1 1 
+Stack is not empty
+The current stack from top to bottom: 5 21 1 1 
+The current stack from top to bottom: 21 1 1 
+The current stack from top to bottom: -1 21 1 1 
+The current stack from top to bottom: -2 -1 21 1 1 
+The current stack from top to bottom: 18 -2 -1 21 1 1 
+The current stack from top to bottom: -2 -1 1 1 18 21 
+The current stack from top to bottom: -2 
+The current stack from top to bottom: 99999 -2 
+The current stack from top to bottom: 12 99999 -2 
+The current stack from top to bottom: 8 12 99999 -2 
+The current stack from top to bottom: 99999 
+The current stack from top to bottom: 99999 
+The current stack from top to bottom: 
+Stack is empty!
+The current stack from top to bottom: 22 
+The current stack from top to bottom: 1 22 
+The current stack from top to bottom: 0 1 22 
+The current stack from top to bottom: 0 1 22 
+The current stack from top to bottom: 22 1 0 
+The current stack from top to bottom: 31 22 1 0 
+The current stack from top to bottom: 99 31 22 1 0 
+The current stack from top to bottom: 31 22 1 0 
+The current stack from top to bottom: 22 1 0 
+The current stack from top to bottom: 1 22 1 0 
+The current stack from top to bottom: 0 
+
+
+The final stack is: 
+The current stack from top to bottom: 0 
+
+
